@@ -1,0 +1,181 @@
+
+
+.flynn{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px 80px;
+}
+
+.conteneur{
+    display: flex;
+    font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #1bb45e;
+    justify-content:space-between;
+}
+
+.flynnspace{
+	flex-grow:30;
+	content:" ";
+}
+
+.item{
+	flex-grow:1
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    text-align: center;
+    padding: 10px;
+}
+
+
+nav li img{
+    height: 2em;
+    vertical-align: middle;
+}
+
+li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.item:hover{
+    color: white;
+    background-color:grey;
+    text-decoration: none;
+}
+
+.try{
+	padding: 0.88em 1.36em;
+    padding-top: 0.82em;
+    border-radius: 1.82em;
+    display: inline;
+    background-color: #1bb45e;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.2em;
+    margin: 0;
+    padding: 10px 0px;
+    position: relative;
+}
+
+h1{ 
+	font-size: 5em;
+    margin: 0.67em 0;
+    display:block;
+}
+
+video {
+    object-fit: contain;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.flynnbar{
+	display: flex;
+    justify-content:center;
+
+}
+
+.flynnbar li{
+	flex-grow: 1;
+    text-align: center;
+    border: 2px solid #c2c2c2;
+    background-color: #ffffff;
+    color: #1bb45e;
+    text-decoration: none;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 2em;
+    width: 100px;
+}
+
+.flynnbar li:hover{
+	color: white;
+    background-color:grey;
+    text-decoration: none;
+}
+
+.rubrique_text{
+	margin: 50px 200px;
+}
+
+h2{
+	font-size: 3.45em;
+}
+
+h3{
+	font-size: 2.5em;
+}
+
+p{
+	font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #727272;
+    line-height: 1.75em;
+}
+
+.rubrique_text li{
+    color: #727272;
+}
+
+.rubrique_text .try{
+	text-align: center;
+	margin: auto;
+	font-size: 1.375em;
+}
+
+.subscriptiondiv{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.subscriptiondiv form button{
+	background-color: #1eb45d;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 0.4em 0.6em;
+}
+
+footer{
+	text-align: center;
+}
+
+footer li{
+	display: inline;
+	padding: 0px 15px;
+}
+
+.pfooter p{
+	margin-bottom:-20px;
+}
+
+.contactus{
+	background-color: #1eb45d;
+    border: none;
+    border-radius: 4px;
+    padding: 0.4em 0.6em;
+    bottom:0;
+    position:fixed;
+    margin-left: 900px;
+}
+
+.contactus p{
+	color: white;
+	font-size: 14px;
+}
