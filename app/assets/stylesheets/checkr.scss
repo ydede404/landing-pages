@@ -1,0 +1,136 @@
+.blue-screen{
+	background-image: url(asset_path("checkr_header_industries-1.jpg"));
+	content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    z-index:1;
+    height: 850px;
+    font-family: "proxima-nova",sans-serif;
+    letter-spacing: .02rem;
+    line-height: 1.4;
+    color: white;
+}
+
+.masquebleu{
+    background: #3C79BB;
+    opacity: 0.72;
+    z-index:2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 850px;
+}
+
+header ul{
+	display:flex; 
+    list-style:none;
+    justify-content: flex-end;
+    margin-right: 20px
+}
+
+header li{
+    padding-left:20px;
+    font-size:68%;
+    opacity:1;
+}
+
+nav ul{
+    display:flex;
+    align-items: baseline;
+}
+
+nav ul img{
+    padding-left: 20px;
+}
+
+nav ul a{
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    transition: none;
+    letter-spacing: 1px;
+}
+
+nav ul li{
+    padding: 20px
+}
+
+.spacer{
+    flex:2
+}
+
+.buttongetstarted{
+    font-size: 13px;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    border: 2px solid #E9CA2C;
+    color: #E9CA2C;
+    padding: 1.5rem 2.3rem 1.5rem;
+    letter-spacing: 0.1em;
+    z-index:1;
+}
+
+.buttongetstarted:hover{
+    font-size: 13px;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    border: 2px solid #E9CA2C;
+    background-color: #E9CA2C;
+    color: black;
+    padding: 1.5rem 2.3rem 1.5rem;
+    letter-spacing: 0.1em;
+    z-index:1;
+}
+
+.centerheader{
+    display:flex;
+    margin: 50px 50px 0px 50px;
+}
+
+.left-content{
+    float: left;
+}
+
+.right-content{
+    float:right;
+}
+
+.left-content h1, .left-content p{
+    color:white;
+    z-index:1;
+}
+
+.left-content h1{
+    font-size: 4em;
+    color:white !important;
+}
+
+.left-content p{
+    font-size: 1.6rem;
+    line-height: 1.555555556;
+    letter-spacing: 0;
+    font-family: "proxima-nova",sans-serif !important;
+}
+
+.buttonexplorenow{
+    font-size: 13px;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    border: 2px solid #E9CA2C;
+    background-color: #E9CA2C;
+    color: black;
+    padding: 1.5rem 2.3rem 1.5rem;
+    letter-spacing: 0.1em;
+    z-index:1;
+    border-radius: 5px;
+    background: #E0BE2D;
+    color: #314B68;
+    text-decoration: none;
+}
